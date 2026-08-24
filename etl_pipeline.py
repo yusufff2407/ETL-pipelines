@@ -43,7 +43,7 @@ def load_data(records):
     conn = psycopg2.connect(
         dbname="crypto_de_db",
         user="postgres",
-        password="YusufPOSTGRES", 
+        password="**********", 
         host="localhost",
         port="5432"
     )
