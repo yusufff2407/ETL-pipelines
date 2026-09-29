@@ -2,7 +2,7 @@ import requests
 import psycopg2
 from datetime import datetime
 
-# 1. EXTRACT
+# 1. EXTRACT DATA FROM GECKO API
 def extract_data():
     print("[EXTRACT] Fetching live crypto market prices...")
     url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd,eur"
